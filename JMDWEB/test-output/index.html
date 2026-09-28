@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-JMD_Service_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">JMD-Service-Automation-Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-JMD_Service_Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\HP\eclipse-workspace\JMDWEB\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-JMD_Service_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-JMD_Service_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-JMD_Service_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-JMD_Service_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-JMD_Service_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-JMD_Service_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-JMD_Service_Automation_Suite" class="hide-methods failed suite-JMD_Service_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-JMD_Service_Automation_Suite -->
+                      <a href="#" panel-name="suite-JMD_Service_Automation_Suite" class="show-methods failed suite-JMD_Service_Automation_Suite"> (show)</a> <!-- show-methods failed suite-JMD_Service_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-JMD_Service_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JMD_Service_Automation_Suite" title="tests.ContactPageTest" class="method navigator-link" hash-for-method="validateEmailIsAvailable">validateEmailIsAvailable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-JMD_Service_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-JMD_Service_Automation_Suite" class="hide-methods passed suite-JMD_Service_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-JMD_Service_Automation_Suite -->
+                      <a href="#" panel-name="suite-JMD_Service_Automation_Suite" class="show-methods passed suite-JMD_Service_Automation_Suite"> (show)</a> <!-- show-methods passed suite-JMD_Service_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-JMD_Service_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JMD_Service_Automation_Suite" title="tests.ContactPageTest" class="method navigator-link" hash-for-method="validateAddressIsAvailable">validateAddressIsAvailable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JMD_Service_Automation_Suite" title="tests.HomePageTest" class="method navigator-link" hash-for-method="validateAdvancedMicrosoftOfficeCourseIsVisible">validateAdvancedMicrosoftOfficeCourseIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JMD_Service_Automation_Suite" title="tests.HomePageTest" class="method navigator-link" hash-for-method="validateMsExcelAndMsWordCourseIsVisible">validateMsExcelAndMsWordCourseIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JMD_Service_Automation_Suite" title="tests.ContactPageTest" class="method navigator-link" hash-for-method="validatePhoneNumberIsAvailable">validatePhoneNumberIsAvailable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JMD_Service_Automation_Suite" title="tests.HomePageTest" class="method navigator-link" hash-for-method="validatePowerPointAndPowerBiCourseIsVisible">validatePowerPointAndPowerBiCourseIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JMD_Service_Automation_Suite" title="tests.BlogPageTest" class="method navigator-link" hash-for-method="validateSearchFieldIsEnabled">validateSearchFieldIsEnabled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JMD_Service_Automation_Suite" title="tests.BlogPageTest" class="method navigator-link" hash-for-method="validateSearchFieldIsVisible">validateSearchFieldIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JMD_Service_Automation_Suite" title="tests.TrainingPageTest" class="method navigator-link" hash-for-method="validateTrainingPhilosophyHeadingIsVisible">validateTrainingPhilosophyHeadingIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-JMD_Service_Automation_Suite" title="tests.TrainingPageTest" class="method navigator-link" hash-for-method="validateTrainingPhilosophyImageIsVisible">validateTrainingPhilosophyImageIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-JMD_Service_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-JMD_Service_Automation_Suite" class="panel JMD_Service_Automation_Suite">
+          <div class="suite-JMD_Service_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.ContactPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEmailIsAvailable">
+                  </a> <!-- validateEmailIsAvailable -->
+                  <span class="method-name">validateEmailIsAvailable</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: a[href*=&apos;email-protection&apos;] (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at utils.WaitUtils.waitForPresence(WaitUtils.java:56)
+	at utils.WaitUtils.scrollAndVerifyVisible(WaitUtils.java:127)
+	at pages.ContactPage.isEmailDisplayed(ContactPage.java:33)
+	at tests.ContactPageTest.validateEmailIsAvailable(ContactPageTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href*=&apos;email-protection&apos;]&quot;}
+  (Session info: chrome=153.0.8010.48)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [23504b177b26544a534a04870842181c, findElement {using=css selector, value=a[href*=&apos;email-protection&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.48, chrome: {chromedriverVersion: 153.0.8010.47 (73934a44f61e..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59166}, goog:processID: 18120, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59166/devtoo..., se:cdpVersion: 153.0.8010.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 23504b177b26544a534a04870842181c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 32 more
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate email is available on the Contact page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JMD_Service_Automation_Suite-class-failed -->
+          <div class="suite-JMD_Service_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TrainingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTrainingPhilosophyHeadingIsVisible">
+                  </a> <!-- validateTrainingPhilosophyHeadingIsVisible -->
+                  <span class="method-name">validateTrainingPhilosophyHeadingIsVisible</span>
+                  <em>
+(Validate 'Our Training Philosophy' heading is visible after scrolling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTrainingPhilosophyImageIsVisible">
+                  </a> <!-- validateTrainingPhilosophyImageIsVisible -->
+                  <span class="method-name">validateTrainingPhilosophyImageIsVisible</span>
+                  <em>
+(Validate 'Our Training Philosophy' image is visible after scrolling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JMD_Service_Automation_Suite-class-passed -->
+          <div class="suite-JMD_Service_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAdvancedMicrosoftOfficeCourseIsVisible">
+                  </a> <!-- validateAdvancedMicrosoftOfficeCourseIsVisible -->
+                  <span class="method-name">validateAdvancedMicrosoftOfficeCourseIsVisible</span>
+                  <em>
+(Validate 'Advanced Microsoft Office' course is visible after scrolling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMsExcelAndMsWordCourseIsVisible">
+                  </a> <!-- validateMsExcelAndMsWordCourseIsVisible -->
+                  <span class="method-name">validateMsExcelAndMsWordCourseIsVisible</span>
+                  <em>
+(Validate 'MS Excel & MS Word' course is visible after scrolling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePowerPointAndPowerBiCourseIsVisible">
+                  </a> <!-- validatePowerPointAndPowerBiCourseIsVisible -->
+                  <span class="method-name">validatePowerPointAndPowerBiCourseIsVisible</span>
+                  <em>
+(Validate 'Power Point & Power BI' course is visible after scrolling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JMD_Service_Automation_Suite-class-passed -->
+          <div class="suite-JMD_Service_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ContactPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddressIsAvailable">
+                  </a> <!-- validateAddressIsAvailable -->
+                  <span class="method-name">validateAddressIsAvailable</span>
+                  <em>
+(Validate corporate office address is available on the Contact page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePhoneNumberIsAvailable">
+                  </a> <!-- validatePhoneNumberIsAvailable -->
+                  <span class="method-name">validatePhoneNumberIsAvailable</span>
+                  <em>
+(Validate phone number is available on the Contact page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JMD_Service_Automation_Suite-class-passed -->
+          <div class="suite-JMD_Service_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.BlogPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchFieldIsEnabled">
+                  </a> <!-- validateSearchFieldIsEnabled -->
+                  <span class="method-name">validateSearchFieldIsEnabled</span>
+                  <em>
+(Validate the blog search field is enabled)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchFieldIsVisible">
+                  </a> <!-- validateSearchFieldIsVisible -->
+                  <span class="method-name">validateSearchFieldIsVisible</span>
+                  <em>
+(Validate the blog search field is visible after scrolling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JMD_Service_Automation_Suite-class-passed -->
+        </div> <!-- panel JMD_Service_Automation_Suite -->
+        <div panel-name="test-xml-JMD_Service_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HP\eclipse-workspace\JMDWEB\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;JMD-Service-Automation-Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;io.qameta.allure.testng.AllureTestNg&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Home Page Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Home Page Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Training Page Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TrainingPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Training Page Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Blog Page Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.BlogPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Blog Page Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;About Page Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AboutPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- About Page Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Contact Page Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ContactPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Contact Page Tests --&gt;
+&lt;/suite&gt; &lt;!-- JMD-Service-Automation-Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-JMD_Service_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for JMD-Service-Automation-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Home Page Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Training Page Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Blog Page Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">About Page Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Contact Page Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-JMD_Service_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for JMD-Service-Automation-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-JMD_Service_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for JMD-Service-Automation-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_JMD_Service_Automation_Suite');
+function tableData_JMD_Service_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateEmailIsAvailable')
+data.setCell(0, 2, 'tests.ContactPageTest')
+data.setCell(0, 3, 16098);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateAdvancedMicrosoftOfficeCourseIsVisible')
+data.setCell(1, 2, 'tests.HomePageTest')
+data.setCell(1, 3, 1059);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateMsExcelAndMsWordCourseIsVisible')
+data.setCell(2, 2, 'tests.HomePageTest')
+data.setCell(2, 3, 890);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validatePowerPointAndPowerBiCourseIsVisible')
+data.setCell(3, 2, 'tests.HomePageTest')
+data.setCell(3, 3, 890);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateTrainingPhilosophyImageIsVisible')
+data.setCell(4, 2, 'tests.TrainingPageTest')
+data.setCell(4, 3, 820);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateSearchFieldIsVisible')
+data.setCell(5, 2, 'tests.BlogPageTest')
+data.setCell(5, 3, 778);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateTrainingPhilosophyHeadingIsVisible')
+data.setCell(6, 2, 'tests.TrainingPageTest')
+data.setCell(6, 3, 480);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateAddressIsAvailable')
+data.setCell(7, 2, 'tests.ContactPageTest')
+data.setCell(7, 3, 437);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validatePhoneNumberIsAvailable')
+data.setCell(8, 2, 'tests.ContactPageTest')
+data.setCell(8, 3, 419);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateSearchFieldIsEnabled')
+data.setCell(9, 2, 'tests.BlogPageTest')
+data.setCell(9, 3, 78);
+window.suiteTableData['JMD_Service_Automation_Suite']= { tableData: data, tableDiv: 'times-div-JMD_Service_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-JMD_Service_Automation_Suite">
+              </div> <!-- times-div-JMD_Service_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-JMD_Service_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for JMD-Service-Automation-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-JMD_Service_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-JMD_Service_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToHomePage</span>
+                <span class="method-start">5015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAdvancedMicrosoftOfficeCourseIsVisible</span>
+                <span class="method-start">13351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14453 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToHomePage</span>
+                <span class="method-start">16278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateMsExcelAndMsWordCourseIsVisible</span>
+                <span class="method-start">21959 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToHomePage</span>
+                <span class="method-start">24895 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePowerPointAndPowerBiCourseIsVisible</span>
+                <span class="method-start">28513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29410 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TrainingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToTrainingPage</span>
+                <span class="method-start">31382 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateTrainingPhilosophyHeadingIsVisible</span>
+                <span class="method-start">35800 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36280 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36695 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToTrainingPage</span>
+                <span class="method-start">37960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateTrainingPhilosophyImageIsVisible</span>
+                <span class="method-start">41497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42317 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.BlogPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToBlogPage</span>
+                <span class="method-start">43928 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateSearchFieldIsEnabled</span>
+                <span class="method-start">47775 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47855 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">48327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToBlogPage</span>
+                <span class="method-start">49545 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateSearchFieldIsVisible</span>
+                <span class="method-start">53719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54498 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactPage</span>
+                <span class="method-start">56230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddressIsAvailable</span>
+                <span class="method-start">60880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">61703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactPage</span>
+                <span class="method-start">63074 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateEmailIsAvailable</span>
+                <span class="method-start">66351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">83735 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToContactPage</span>
+                <span class="method-start">85439 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePhoneNumberIsAvailable</span>
+                <span class="method-start">89489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89913 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JMD-Service-Automation-Suite" verbose="1" parallel="none">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Home Page Tests">
+        <classes>
+            <class name="tests.HomePageTest"/>
+        </classes>
+    </test>
+
+    <test name="Training Page Tests">
+        <classes>
+            <class name="tests.TrainingPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Blog Page Tests">
+        <classes>
+            <class name="tests.BlogPageTest"/>
+        </classes>
+    </test>
+
+    <test name="About Page Tests">
+        <classes>
+            <class name="tests.AboutPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Contact Page Tests">
+        <classes>
+            <class name="tests.ContactPageTest"/>
+        </classes>
+    </test>
+
+</suite>
